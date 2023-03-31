@@ -12,7 +12,8 @@ public class OverlodingProg
 {
   public static void main(String args[])
   {
-    OverlodingProg w=new OverlodingProg();
+    OverloadAddMethod w=new OverloadAddMethod();
       w.add(10,30);
-      w.add(30,30);
+      w.add(30,30,20);
   }
+}
